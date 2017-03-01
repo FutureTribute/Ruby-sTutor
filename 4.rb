@@ -21,3 +21,11 @@ def mult a, b
   puts a * b
 end
 mult 2, 3
+def someMethod(*p)
+  puts p
+end
+someMethod(25, "hello", true)
+def myMethod(a, b, *c)
+  puts a, b, c
+end
+myMethod(4, false)
