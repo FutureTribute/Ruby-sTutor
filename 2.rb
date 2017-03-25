@@ -73,7 +73,7 @@ for i in 1..5 #break прерывает выполнение цыкла
   break if i > 3
   puts i
 end
-for i in 0..10  #next - пропускает итерации, redo - повторяет итерацию, retry - перезапуск цыкла
+for i in 0..10  #next - пропускает итерации, redo - пов торяет итерацию, retry - перезапуск цыкла
   next if i % 2 == 0
   puts i
 end
